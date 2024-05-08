@@ -1,0 +1,63 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .movies-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movies-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movie-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5c518;
+    border-radius: 5px;
+    color: #000000;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-item button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .movie-item button:hover {
+    background-color: #333333;
+  }
+  
+  .movie-details {
+    margin-top: 10px;
+    color: #cccccc;
+  }
+  
+  .add-movie-button {
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .add-movie-button button {
+    padding: 15px 30px;
+    background-color: #f5c518;
+    color: #000000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .add-movie-button button:hover {
+    background-color: #e0b416;
+  }
+  
